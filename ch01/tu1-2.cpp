@@ -1,24 +1,19 @@
 /*************************************************************************
-	> 文件名: tu1-2.cpp
-	> 作者: 马海城
-	> 邮箱: hchma@outlook.com
-	> 创建日期: 2015年09月09日 星期三 15时55分23秒
+        > 文件名: tu1-2.cpp
+        > 作者: 马海城
+        > 邮箱: hchma@outlook.com
+        > 创建日期: 2015年09月09日 星期三 15时55分23秒
  ************************************************************************/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int f(int x)
-{
-    if(x == 0){
-        return 0;
-    }
-    else{
-        return 2 * f(x-1) + x * x;
-    }
+int f(int x) {
+  if (x == 0) {
+    return 0;
+  } else {
+    return 2 * f(x - 1) + x * x;
+  }
 }
 
-int main()
-{
-    cout<<f(10);
-}
+int main() { cout << f(10); }

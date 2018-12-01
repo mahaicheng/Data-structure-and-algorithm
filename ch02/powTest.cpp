@@ -1,15 +1,12 @@
 /*************************************************************************
-	> 文件名: powTest.cpp
-	> 作者: 马海城
-	> 邮箱: hchma@outlook.com
-	> 创建日期: 2015年09月10日 星期四 15时06分34秒
+        > 文件名: powTest.cpp
+        > 作者: 马海城
+        > 邮箱: hchma@outlook.com
+        > 创建日期: 2015年09月10日 星期四 15时06分34秒
  ************************************************************************/
 
-#include<iostream>
-#include"pow.cpp"
+#include <iostream>
+#include "pow.cpp"
 using namespace std;
 
-int main()
-{
-    cout<<"pow(2, 63) = "<<pow(2, 63)<<endl;
-}
+int main() { cout << "pow(2, 63) = " << pow(2, 63) << endl; }

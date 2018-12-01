@@ -1,24 +1,19 @@
 /*************************************************************************
-	> 文件名: tu1-3.cpp
-	> 作者: 马海城
-	> 邮箱: hchma@outlook.com
-	> 创建日期: 2015年09月09日 星期三 15时52分25秒
+        > 文件名: tu1-3.cpp
+        > 作者: 马海城
+        > 邮箱: hchma@outlook.com
+        > 创建日期: 2015年09月09日 星期三 15时52分25秒
  ************************************************************************/
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int bad(int x)
-{
-    if(x == 0){
-        return 0;
-    }
-    else{
-        return bad(x / 3 + 1) + x - 1;
-    }
+int bad(int x) {
+  if (x == 0) {
+    return 0;
+  } else {
+    return bad(x / 3 + 1) + x - 1;
+  }
 }
 
-int main()
-{
-    bad(2);
-}
+int main() { bad(2); }
